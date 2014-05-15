@@ -1,0 +1,3 @@
+datatype Action = Deposit | WithDraw
+channel ledger : Action
+ACCT = ledger?x -> ACCT
